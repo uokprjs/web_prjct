@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url('/Users/n4r515/Desktop/background.webp');
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+#sidebar {
+	position: fixed;
+	background: #FF0000;
+	width: 300px;
+	height: 100%;
+	font-family: Georgia;
+
+}
+
+h3 {
+	margin: 0;
+	padding: 310px 0 20px;
+	text-align: center;
+	font-size: 36px;
+	color: #353b48;
+}
+
+.LogIn {
+	position: absolute;
+	top: 50%;
+	left: 63%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	padding: 40px;
+	text-align: center;
+}
+
+
+.LogIn input[type="text"], .LogIn input[type="password"] {
+	border:0;
+	background: none;
+	display: block;
+	margin: 5px auto;
+	text-align: center;
+	border: 2px solid #a29bfe;
+	padding: 14px 10px;
+	width: 200px;
+	border-radius: 24px;
+	transition: 0.25s;
+	outline: none;
+	color: black;
+	font-size: 14px;
+	font-family: Georgia;
+ }
+
+
+ .LogIn input[type="text"]:focus, .LogIn input[type="password"]:focus {
+ 	width: 280px;
+ 	border-color: #00b894;
+ }
+
+ .LogIn input[type="submit"] {
+ 	border:0;
+	background: #EFD8F9;
+	display: block;
+	margin: 5px auto;
+	text-align: center;
+	border: 2px solid #a29bfe;
+	padding: 14px 40px;
+	border-radius: 24px;
+	transition: 0.25s;
+	outline: none;
+	color: #747d8c;
+	cursor: pointer;
+	font-size: 14px;
+	font-family: Georgia;
+ }
+
+.LogIn input[type="submit"]:hover{
+	background: #49F79A;
+}
+
+.LogIn input[type="submit"]:{
+	background: #00b894;
+}
+
+.LogIn a:link {
+	color: #6c5ce7;
+	text-decoration: none;
+	font-family: Georgia;
+}
+
+.LogIn a:hover {
+	color: #00b894;
+	text-decoration: underline;
+	font-family: Georgia;
+}
